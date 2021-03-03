@@ -1,0 +1,16 @@
+mandel.cpp
+
+Generates an image of a mandelbrot set.
+The image is animated; the position of the mouse
+changes the value of Z that is used to generate
+the set.
+
+Click in the window to exit.
+See the source for command line options.
+
+Build with:
+g++ -lSDL2 -std=c++17 mandel.cpp -o mandel
+
+I wrote this because I haven't written any C++ in
+quite some time. C++ 17 is very different from
+the C++ I learned in 2002. Who'd have thought?
